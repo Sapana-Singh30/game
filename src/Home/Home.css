@@ -1,0 +1,92 @@
+.home-container{
+display: flex;
+justify-content: center;
+/* align-items: center; */
+}
+
+
+
+.gg{
+    /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    position: absolute;
+    color: white;
+    /* font-size: 2rem; */
+    z-index: 1;
+}
+
+/* .gg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ flex-direction: column;
+} */
+
+.gg p{
+    /* background-color: aqua; */
+    font-weight: bolder;
+    font-size: 3rem;
+    align-items: center;
+    text-align: center;
+}
+
+.gg button{
+    background-color: rgb(231, 28, 153);
+    margin: 1.6rem;
+    padding: 0.6rem;
+    border-radius: 12px;
+    border: none;
+}
+
+.gg a{
+    /* background-color: brown; */
+    text-decoration: none;
+   color: white;
+   font-weight: bold;
+   font-size: 1.1rem;
+}
+
+/* .nn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+} */
+.home{
+    /* height: 50px; */
+    width: 100vw;
+    /* height: 100vh; */
+    position: relative;
+    /* width: 200px; */
+}
+
+.result_btn{
+    display: flex;
+
+}
+
+.tc{
+    /* margin-bottom: 100px; */
+    background-color: brown;
+    color: red;
+position: absolute;
+z-index:1;
+}
+
+
+@media screen and (max-width: 480px){
+    .gg p{
+        font-size: 1.8rem;
+    }
+    .gg a{
+        font-size: 1rem;
+        /* font-weight: bold; */
+    }
+
+    .gg button{
+        margin: 0.5rem;
+    }
+}
