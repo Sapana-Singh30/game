@@ -1,14 +1,14 @@
 import './App.css';
-import Home from './Home/Home';
-import Nav from './Navbar/Nav';
-import Terms from './Terms/Terms';
+import Dashboard from './Dashboard/Dashboard';
+import Login from './Login/Login';
+
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Home />
-      <Terms />
+    Hello
+    <Login/>
+    <Dashboard/>
     </div>
   );
 }
